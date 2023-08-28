@@ -1,0 +1,91 @@
+\documentclass{book}
+
+% packages
+\usepackage{geometry} % for customizing page layout
+\usepackage{fancyhdr} % for customizing header/footer
+\usepackage{changepage} % for adjusting blockquotes
+\usepackage{fontspec}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+
+% page layout
+\geometry{
+    paperwidth=132mm,
+    paperheight=197mm,
+    margin=2cm,
+    top=1cm,
+    bottom=1cm,
+    headheight=14pt,
+    includeheadfoot,
+}
+
+% set font
+\setmainfont{EB Garamond}
+
+% line spacing
+\linespread{1.2}
+
+% pdf metadata
+\hypersetup{
+    pdftitle={Antiindividualistic Individuality: Anarchism’s Legacy},
+    pdfauthor={Gabriel Kuhn}
+}
+
+% page header and footer
+\fancypagestyle{plain}{
+    \fancyhf{} % clear all header and footer fields
+    \renewcommand{\headrulewidth}{0pt} % remove the header rule
+    \renewcommand{\footrulewidth}{0pt} % remove the footer rule
+}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[LE,RO]{\thepage} % page number on the left for even pages and on the right for odd pages
+
+% title page
+\title{Antiindividualistic Individuality: Anarchism’s Legacy}
+\author{Gabriel Kuhn}
+\date{}
+
+% begin
+\begin{document}
+
+\frontmatter % for title page, table of contents, etc.
+\pagestyle{empty} % set the page style to empty for the front matter pages
+
+\maketitle
+
+% copyright page
+\vspace*{\fill}
+\begin{center}
+{
+    \small
+    Published by Laniakea Books in September 2023.\\
+    \vspace{1em}
+    First Printing. 50 copies. £300.\\
+    \vspace{1em}
+    Full digital copies available at:\\
+    \mbox{https://laniakeabooks.org/books/antiindividualistic-individuality/}\\
+    \vspace{1em}
+    No Rights Reserved.\\
+    \vspace{1em}
+    The entirety of this book is dedicated to the public domain.\\
+    \vspace{1em}
+    To the extent possible under law, Gabriel Kuhn has waived all copyright and
+    related or neighbouring rights to \textit{Antiindividualistic~Individuality: Anarchism’s~Legacy}.\\
+    \vspace{1em}
+    All parts of this book may be reproduced and transmitted in all forms and by
+    all means, electronic or mechanical, including photocopying and recording,
+    and in all information storages and retrieval systems without any prior or
+    subsequent written or oral permission of the author.\\
+    \vspace{1em}
+    Laniakea Books\\
+    Haggerston, London\\
+    https://laniakeabooks.org/\\
+    \vspace{1em}
+    ISBN 978-1-7394500-1-4\\
+    \vspace{1em}
+    Typeset in \TeX\ using Tectonic.\\
+    Printed and bound by The London Print Co. in Bloomsbury,~London.
+}
+\end{center}
+
+\mainmatter % for main content
+\pagestyle{fancy} % switch back to the fancy page style for the main content pages
