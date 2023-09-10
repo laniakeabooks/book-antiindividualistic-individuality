@@ -15,6 +15,11 @@ XeTeX distribution.
 make pdf
 ```
 
+```sh
+make epub
+make lint
+```
+
 Note: The open source variation of Garamond,
 [EB Garamond](http://www.georgduffner.at/ebgaramond/) is the main font of the
 TeX sources. Font files used can be found in the [fonts](fonts/) directory.
