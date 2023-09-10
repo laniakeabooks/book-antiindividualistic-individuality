@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package version="3.0" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:FAECD908-33E3-47B1-AA1E-0173119F78DE</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:title>Antiindividualistic Individuality: Anarchism’s Legacy</dc:title>
+    <dc:creator id="creator">Gabriel Kuhn</dc:creator>
+    <dc:publisher>Laniakea Books</dc:publisher>
+    <dc:date>2023-09-12</dc:date>
+    <dc:rights>CC0</dc:rights>
+    <dc:identifier id="isbn13">urn:isbn:9781739450014</dc:identifier>
+    <meta property="dcterms:modified">2023-09-12T00:00:01Z</meta>
+  </metadata>
+  <manifest>
+    <item id="cover" href="image/cover.png" media-type="image/png"/>
+    <item id="titlepage" href="text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preface" href="text/preface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="main" href="text/main.xhtml" media-type="application/xhtml+xml"/>
+    <item id="notes" href="text/notes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="author" href="text/author.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main-css" href="style/main.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="titlepage"/>
+    <itemref idref="nav"/>
+    <itemref idref="preface"/>
+    <itemref idref="main"/>
+    <itemref idref="notes"/>
+    <itemref idref="author"/>
+  </spine>
+</package>
